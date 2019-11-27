@@ -1,0 +1,7 @@
+---
+# handlers file for aide
+- name: copy new aide database
+  copy:
+    src: "{{ aide_db_new }}"
+    dest: "{{ aide_db }}"
+    remote_src: yes

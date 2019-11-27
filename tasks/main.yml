@@ -1,0 +1,22 @@
+---
+# tasks file for aide
+- name: install aide
+  package:
+    name: "{{ aide_packages }}"
+    state: present
+  register: aide_install_aide
+  until: aide_install_aide is succeeded
+  retries: 3
+
+- name: initialize aide
+  command: "{{ aide_init_command }}"
+  args:
+    creates: "{{ aide_db_new }}"
+  notify:
+    - copy new aide database
+
+- name: schedule aide check
+  cron:
+    name: aide check
+    job: aide --check
+    special_time: daily
