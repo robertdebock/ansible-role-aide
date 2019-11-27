@@ -22,4 +22,4 @@ _aide_db:
   default: /var/lib/aide/aide.db.gz
   Debian: /var/lib/aide/aide.db
 
-aide_db: "{{ _aide_db[ansible_os_family] | default(_aide_db['default'] }}"
+aide_db: "{{ _aide_db[ansible_os_family] | default(_aide_db['default']) }}"
