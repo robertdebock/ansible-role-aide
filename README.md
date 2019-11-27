@@ -2,7 +2,7 @@ aide
 =========
 
 <img src="https://docs.ansible.com/ansible-tower/3.2.4/html_ja/installandreference/_static/images/logo_invert.png" width="10%" height="10%" alt="Ansible logo" align="right"/>
-<a href="https://travis-ci.org/robertdebock/ansible-role-aide"> <img src="https://travis-ci.org/robertdebock/ansible-role-aide.svg?branch=master" alt="Build status"/></a> <img src="https://img.shields.io/ansible/role/d/"/> <img src="https://img.shields.io/ansible/quality/"/>
+<a href="https://travis-ci.org/robertdebock/ansible-role-aide"> <img src="https://travis-ci.org/robertdebock/ansible-role-aide.svg?branch=master" alt="Build status"/></a> <img src="https://img.shields.io/ansible/role/d/44968"/> <img src="https://img.shields.io/ansible/quality/44968"/>
 
 Install and configure aide on your system.
 
@@ -77,8 +77,6 @@ This role has been tested on these [container images](https://hub.docker.com/):
 
 |container|tag|allow_failures|
 |---------|---|--------------|
-|alpine|latest|no|
-|alpine|edge|yes|
 |debian|unstable|yes|
 |debian|latest|no|
 |centos|7|no|
@@ -94,6 +92,14 @@ This role has been tested on these Ansible versions:
 - ansible>=2.9
 - git+https://github.com/ansible/ansible.git@devel
 
+Exceptions
+----------
+
+Some variarations of the build matrix do not work. These are the variations and reasons why the build won't work:
+
+| variation                 | reason                 |
+|---------------------------|------------------------|
+| alpine | aide (missing): required by: world[aide] |
 
 
 
