@@ -32,6 +32,5 @@ galaxy_info:
   galaxy_tags:
     - aide
     - centos
-    - rhel
 
 dependencies: []
