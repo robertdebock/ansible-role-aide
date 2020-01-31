@@ -10,7 +10,7 @@ on:
     tags:
       - '*'
   schedule:
-    - cron: '46 0 2 * *'
+    - cron: '1 15 2 * *'
 
 jobs:
   release:
