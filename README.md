@@ -5,7 +5,7 @@ Install and configure aide on your system.
 
 |Travis|GitHub|Quality|Downloads|
 |------|------|-------|---------|
-|[![travis](https://travis-ci.org/robertdebock/ansible-role-aide.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-aide)|[![github](https://github.com/robertdebock/ansible-role-aide/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-aide/actions)|![quality](https://img.shields.io/ansible/quality/44968)|![downloads](https://img.shields.io/ansible/role/d/44968)|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-aide.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-aide)|[![github](https://github.com/robertdebock/ansible-role-aide/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-aide/actions)|[![quality](https://img.shields.io/ansible/quality/44968)](https://galaxy.ansible.com/robertdebock/aide)|[![downloads](https://img.shields.io/ansible/role/d/44968)](https://galaxy.ansible.com/robertdebock/aide)|
 
 Example Playbook
 ----------------
@@ -116,7 +116,7 @@ Some variarations of the build matrix do not work. These are the variations and 
 Testing
 -------
 
-[Unit tests](https://travis-ci.org/robertdebock/ansible-role-aide) are done on every commit, pull request, release and periodically.
+[Unit tests](https://travis-ci.com/robertdebock/ansible-role-aide) are done on every commit, pull request, release and periodically.
 
 If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-aide/issues)
 
