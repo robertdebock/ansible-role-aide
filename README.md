@@ -2,9 +2,9 @@
 
 Install and configure aide on your system.
 
-|Travis|GitHub|Quality|Downloads|
-|------|------|-------|---------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-aide.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-aide)|[![github](https://github.com/robertdebock/ansible-role-aide/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-aide/actions)|[![quality](https://img.shields.io/ansible/quality/44968)](https://galaxy.ansible.com/robertdebock/aide)|[![downloads](https://img.shields.io/ansible/role/d/44968)](https://galaxy.ansible.com/robertdebock/aide)|
+|Travis|GitHub|Quality|Downloads|Version|
+|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-aide.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-aide)|[![github](https://github.com/robertdebock/ansible-role-aide/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-aide/actions)|[![quality](https://img.shields.io/ansible/quality/44968)](https://galaxy.ansible.com/robertdebock/aide)|[![downloads](https://img.shields.io/ansible/role/d/44968)](https://galaxy.ansible.com/robertdebock/aide)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-aide.svg)](https://github.com/robertdebock/ansible-role-aide/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
