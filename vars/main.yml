@@ -1,5 +1,6 @@
 ---
 # vars file for aide
+
 _aide_packages:
   default:
     - aide
