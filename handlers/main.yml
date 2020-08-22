@@ -4,4 +4,5 @@
   copy:
     src: "{{ aide_db_new }}"
     dest: "{{ aide_db }}"
+    mode: "0600"
     remote_src: yes
