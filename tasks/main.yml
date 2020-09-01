@@ -1,5 +1,9 @@
 ---
 # tasks file for aide
+- name: fail to trigger a slack notification.
+  fail:
+    - msg: Trying slack.
+
 - name: install aide
   package:
     name: "{{ aide_packages }}"
