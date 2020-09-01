@@ -42,6 +42,7 @@ script:
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
   slack:
-    template: "%{result}: %{repository_slug}@%{branch}, build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>)"
     secure: "Ob1j32KfOWKBbpODfintQNgk8n2adGwCQg5HlHy2FZs2FEPXQN9toxWRqZCMc45GH3TvDWjxdbFkcqh+xlscwhaZ8D3u+5gi3Nxq3nMKCokdfShy81T5mFgY8PC2dKmIEFVQ/6vwkoVQwVx7efDoLjpimhIfkZ6tcYwEfdOVzbOtdWIdY6L/WsQKJ4Y502lzC0eCPlLqFTiHX6RbVd8BSvFXIX8+eyiDcKqfwQylhyFjr/gyD9tAdCuqyo4zTCoJZv28XQkcjpUZIZ/GCnMUKgfNwDAq7U69Ta7o/wb06lxDbEisdwaDeDS6xQNHCEECH6kkbwpz6Lullcjjf0J1F1ki30fkuNk8nbXH9F18Lmz8Kojz/OXjmKgApnI51zZchhvarjuBFQkd2dUVpWTAQbJGtRlAdTqhMM3ZAFx81LQMNhPY/Nmr6qHmQ+d7g/YzaR+DlEld9gSSmRHVifdV5z6SysoyO4LbU1oo1rOtKYLd51i5iNCphVcbx0JGyKuy+LlhTwQnm4LRXvQF+naOqCIwISIzFnZ7CKInqHX/KZl4LWnCashJiyIkdp/XZYhQHsgGLR3bM1JEClRYogAFGa/wWKoyv0n2HvfSP47tqAtlVDNntOFrPASfKPUQNAX5rRQGVeXtb/XcwrQqesJio4vrEatbVrIFx+vEUse7dig="
+    on_success: change
+    template: "%{result}: %{repository_slug}@%{branch}, build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>)"
   email: false
