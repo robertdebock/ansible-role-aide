@@ -5,3 +5,4 @@
 repository:
   description: Install and configure aide on your system.
   homepage: https://robertdebock.nl/
+  topics: aide, ids, hacktoberfest

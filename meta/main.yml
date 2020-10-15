@@ -33,6 +33,6 @@ galaxy_info:
 
   galaxy_tags:
     - aide
-    - centos
+    - ids
 
 dependencies: []
