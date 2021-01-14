@@ -1,11 +1,8 @@
 ---
 # vars file for aide
 
-_aide_packages:
-  default:
-    - aide
-
-aide_packages: "{{ _aide_packages[ansible_os_family] | default(_aide_packages['default']) }}"
+aide_packages:
+  - aide
 
 _aide_init_command:
   default: aide --init
