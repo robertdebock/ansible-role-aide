@@ -2,7 +2,7 @@
 # handlers file for aide
 
 - name: copy new aide database
-  copy:
+  ansible.builtin.copy:
     src: "{{ aide_db_new }}"
     dest: "{{ aide_db }}"
     mode: "0600"

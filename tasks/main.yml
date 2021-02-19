@@ -2,7 +2,7 @@
 # tasks file for aide
 
 - name: install aide
-  package:
+  ansible.builtin.package:
     name: "{{ aide_packages }}"
     state: present
 
@@ -14,7 +14,7 @@
     - copy new aide database
 
 - name: schedule aide check
-  cron:
+  ansible.builtin.cron:
     name: aide check
     job: aide --check
     special_time: daily
