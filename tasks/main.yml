@@ -7,7 +7,7 @@
     state: present
 
 - name: initialize aide
-  command: "{{ aide_init_command }}"
+  ansible.builtin.command: "{{ aide_init_command }}"
   args:
     creates: "{{ aide_db_new }}"
   notify:
