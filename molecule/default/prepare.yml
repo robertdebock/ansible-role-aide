@@ -8,3 +8,6 @@
     - role: robertdebock.bootstrap
     - role: robertdebock.cron
     - role: robertdebock.postfix
+      postfix_myhostname: "smtp.example.com"
+      postfix_mydomain: "example.com"
+      postfix_myorigin: "example.com"
