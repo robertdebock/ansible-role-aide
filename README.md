@@ -72,7 +72,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |amazon|Candidate|
 |el|8|
 |debian|bullseye|
-|fedora|35, 36|
+|fedora|36|
 |opensuse|all|
 |ubuntu|all|
 
