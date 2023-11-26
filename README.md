@@ -1,4 +1,4 @@
-# Ansible role [aide](#aide)
+# [Ansible role aide](#aide)
 
 Install and configure aide on your system.
 
