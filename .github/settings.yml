@@ -5,4 +5,4 @@
 repository:
   description: Install and configure aide on your system.
   homepage: https://robertdebock.nl/
-  topics: aide, ids, monitoring, system, security, ansible, molecule, tox, playbook
+  topics: aide, ids, monitoring, system, security, ansible, molecule, playbook
